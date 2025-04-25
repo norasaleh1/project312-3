@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Kid</title>
+    <link rel="stylesheet" href="style.css">
+
+
+       
+		  
+</head>
+<body>
+
+ <header>
+    
+    <div class="logo">
+        <img src="img/logo.png.png" alt="Website Logo">
+       
+    </div>
+     <nav>
+            <a href="index.html" accesskey="i" title="Alt + I (Windows) or Ctrl + Option + I (Mac)">Home</a>
+            <a href="Activities.html" accesskey="a" title="Alt + A (Windows) or Ctrl + Option + HA(Mac)"> Activities</a>
+            <a href="coaches.html" accesskey="c" title="Alt + C (Windows) or Ctrl + Option + C (Mac)">Coaches</a>
+            <div class="dropdown">
+                <a href="Parent_dashboard.html" accesskey="p" title="Alt + P (Windows) or Ctrl + Option + P (Mac)">Parents</a>
+                <div class="dropdown-content">
+                    <a href="Register_Kid.html" accesskey="r" title="Alt + R (Windows) or Ctrl + Option + R (Mac)">Registration</a>
+                    <a href="Activity_enroll.html" accesskey="n" title="Alt + N (Windows) or Ctrl + Option + N (Mac)">Enrollment</a>
+                    <a href="Activity_Evaluation.html" accesskey="v" title="Alt + V (Windows) or Ctrl + Option + V (Mac)">Evaluation</a>
+                </div>
+            </div>
+            <a href="Administrator_Dashboard.html" accesskey="b" title="Alt + B (Windows) or Ctrl + Option + B (Mac)">Administrator</a>
+        </nav>
+</header>
+
+
+
+       
+    
+
+
+
+     <div class="breadcrumb">
+	 <a href="index.html">Home</a> &gt;
+	 <a href="parent_dashboard.html">Parent</a> &gt;
+	 <a href="Register_Kid.html">Register kid</a>
+	 </div>
+
+
+<div class="Register-container">
+        <h2 class="title">Contact Kid Form</h2>
+
+        <form method="POST">
+          
+            <label for="first-name">Name:</label>
+            <div class="name-fields">
+                <input  id="first-name" type="text"  placeholder="First">
+                <input  id="last-name" type="text"  placeholder="Last">
+            </div>
+         
+		 
+		
+<label for="dob">DOB:</label>
+  <div class="dob-fields">
+<input type="date" id="dob" name="dob">
+  
+            </div>
+       
+
+            <!-- Age & Gender -->
+			<div class="Age_Gender">
+			<div class="Age-Gender">
+            <label for="age">Age:</label>
+        
+<input type="number" id="age" name="age" min="1" max="100">
+        
+             </div>
+			 
+			 <div class="Age-Gender">
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        
+         </div>
+		     </div>
+            <!-- Photo Upload -->
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo">
+
+            <!-- Weight & Height -->
+            <label>Weight & Height:</label>
+            <div class="height-weight-fields">
+              
+<input type="number"  name="Weight" min="1" max="250">
+
+<input type="number"  name="Height" min="1" max="250">
+               
+            </div>
+       
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" placeholder="#### ### ####">
+       
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@gmail.com">
+      
+
+            <button id="Register-Button" type="button" >Register Now!</button>
+        </form>
+    </div>
+	  <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img class="logo" src="img/logo.png.png" alt="Logo">
+        </div>
+
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <a href="https://x.com"  target="_blank"><img class="icon"  src="img/X.png.png" alt="X Icon" > Activo.web</a>
+            <a href="https://instagram.com"  target="_blank"><img class="icon"  src="img/Instagram.png.png" alt="Instagram icon"> Activo.web</a>
+            <a href="https://youtube.com"  target="_blank"><img class="icon"  src="img/youtube.png.png" alt="youtube icon"> Activo.channel</a>
+        </div>
+
+
+        <div class="contact" >
+		<h3 >Contact Us</h3>
+            <a href="tel:+96644444890">+96644444890</a>
+            <a href="tel:+69988888096">+69988888096</a>
+            <a href="mailto:Activo.Center@gmail.com">Activo.Center@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        ©2025 Activo. All rights reserved
+    </div>
+</footer>
+
+
+	<script src="script.js"></script>
+</body>
+</html>       

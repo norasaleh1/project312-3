@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent dashboard</title>
+	<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="logo">
+                 <img class="logo" src="img/logo.png.png" alt="Logo">
+       
+    </div>
+     <nav>
+            <a href="index.html" accesskey="i" title="Alt + I (Windows) or Ctrl + Option + I (Mac)">Home</a>
+            <a href="Activities.html" accesskey="a" title="Alt + A (Windows) or Ctrl + Option + HA(Mac)"> Activities</a>
+            <a href="coaches.html" accesskey="c" title="Alt + C (Windows) or Ctrl + Option + C (Mac)">Coaches</a>
+            <div class="dropdown">
+                <a href="Parent_dashboard.html" accesskey="p" title="Alt + P (Windows) or Ctrl + Option + P (Mac)">Parents</a>
+                <div class="dropdown-content">
+                    <a href="Register_Kid.html" accesskey="r" title="Alt + R (Windows) or Ctrl + Option + R (Mac)">Registration</a>
+                    <a href="Activity_enroll.html" accesskey="n" title="Alt + N (Windows) or Ctrl + Option + N (Mac)">Enrollment</a>
+                    <a href="Activity_Evaluation.html" accesskey="v" title="Alt + V (Windows) or Ctrl + Option + V (Mac)">Evaluation</a>
+                </div>
+            </div>
+            <a href="Administrator_Dashboard.html" accesskey="b" title="Alt + B (Windows) or Ctrl + Option + B (Mac)">Administrator</a>
+        </nav>
+</header>
+
+
+
+
+<div class="breadcrumb">
+    <a href="index.html">Home</a> &gt;
+    <a href="Parent_dashboard.html">Parent</a>
+</div>
+<h2 class="title"> My Kids </h2>
+
+<div class="Parentsort-box">
+    <label for="sort">Sort kids by:</label>
+    <select id="sort">
+        <optgroup label="By Name">
+            <option value="Ascending-name">A to Z</option>
+            <option value="Descending-name">Z to A</option>
+        </optgroup>
+        <optgroup label="By Age">
+            <option value="Ascending-age">Youngest to Oldest</option>
+            <option value="Descending-age">Oldest to Youngest</option>
+        </optgroup>
+    </select>
+</div>
+
+
+<div class="Parentcard-box">
+    <div class="parent-card">
+        <img src="img/kid4.jpg" alt="Child">
+        <div>
+            <strong>Lama Abdulrahman</strong><br>
+            22<br>
+            Female
+        </div>
+    </div>
+
+    <div class="parent-card">
+        <img src="img/kid.jpg" alt="Child">
+        <div>
+            <strong>Talal Faisal</strong><br>
+            11<br>
+            Male
+        </div>
+    </div>
+	
+
+<div class="parent-card">
+    <img src="img/kid5.jpg" alt="Child">
+    <div>
+        <strong>Fahad Ali</strong><br>
+        23<br>
+        Male
+    </div>
+</div>
+
+<div class="parent-card">
+    <img src="img/kid3.jpg" alt="Child">
+    <div>
+        <strong>Reem Fahad</strong><br>
+        19<br>
+        Female
+    </div>
+</div>
+
+</div>
+
+<div class="parent-buttons-box">
+    <div class="parent-button">
+        <h4>Add New Child</h4>
+        <a href="Register_Kid.html" class="btn">Add</a>
+    </div>
+    <div class="parent-button">
+        <h4>Register for Activities</h4>
+        <a href="Register_Kid.html" class="btn">Register</a>
+    </div>
+    <div class="parent-button">
+        <h4>Evaluate Activities</h4>
+        <a href="Activity_Evaluation.html" class="btn">Evaluate</a>
+    </div>
+</div>
+
+	
+
+  <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img class="logo" src="img/logo.png.png" alt="Logo">
+        </div>
+
+        <div class="social-media">
+            <h3>Social Media</h3>
+            <a href="https://x.com"  target="_blank"><img class="icon"  src="img/X.png.png" alt="X Icon" > Activo.web</a>
+            <a href="https://instagram.com"  target="_blank"><img class="icon"  src="img/Instagram.png.png" alt="Instagram icon"> Activo.web</a>
+            <a href="https://youtube.com"  target="_blank"><img class="icon"  src="img/youtube.png.png" alt="youtube icon"> Activo.channel</a>
+        </div>
+
+
+        <div class="contact" >
+		<h3 >Contact Us</h3>
+            <a href="tel:+96644444890">+96644444890</a>
+            <a href="tel:+69988888096">+69988888096</a>
+            <a href="mailto:Activo.Center@gmail.com">Activo.Center@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        ©2025 Activo. All rights reserved
+    </div>
+</footer>
+
+</body>
+</html>
